@@ -1,4 +1,5 @@
-Inyeccion de pendencias C# / .NET - Singleton | Scoped | Transient
+Inyeccion de pendencias C# / .NET - Singleton | Scoped | Transient  
+
 ##TRES tipos de inyecciones:
 
 Singleton -> El mismo objeto siempre	
