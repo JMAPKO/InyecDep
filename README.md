@@ -1,4 +1,4 @@
-##TRES tipodes de inyeccion
+##TRES tipos de inyecciones:
 
 Singleton -> El mismo objeto siempre	
 
