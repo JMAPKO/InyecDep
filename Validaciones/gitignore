@@ -1,0 +1,77 @@
+¡Claro que sí! Aquí tienes un archivo .gitignore básico y muy útil para proyectos de C# y .NET. Este archivo te ayudará a mantener tu repositorio de Git limpio, ignorando los archivos y directorios que se generan automáticamente y que no deben ser parte del control de versiones (como los binarios compilados, archivos temporales, etc.).
+
+Copia este contenido y pégalo en un archivo llamado .gitignore en la raíz de tu proyecto (al mismo nivel que tu archivo .sln si tienes uno, o al nivel de tus carpetas de proyecto si no).
+
+Fragmento de código
+
+# Visual Studio 2019/2022
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.dll
+*.exe
+*.pdb
+*.psd1
+*.psm1
+*.nupkg
+*.zip
+*.tar.gz
+*.tmp
+
+# Nuget
+*.nuget.log
+packages/
+*.nupkg
+*.snk
+
+# Resharper
+*.resharper
+*.resharper.user
+_ReSharper.*/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Editor config
+.editorconfig
+
+# Local User Secrets
+appsettings.Development.json
+appsettings.json.user
+appsettings.*.user
+
+# Test Results
+TestResults/
+*.trx
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# SQL Server Management Studio
+*.ssmssln
+*.bak
+*.mdf
+*.ldf
+
+# Azure
+.azure/

@@ -1,5 +1,8 @@
+using BACKEND02.DTOs;
 using BACKEND02.Models;
 using BACKEND02.Services;
+using BACKEND02.Validation;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +31,12 @@ builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("StoreConnection"));
 });
+
+//Validaciones
+builder.Services.AddScoped<IValidator<AutoInserDto>, AutoInsertValidator>();
+builder.Services.AddSingleton<IValidator<MarcaInsertDto>, MarcaInsertValidator>();
+builder.Services.AddTransient<IValidator<AutoUpdateDto>, AutoUpdateValidation>();
+
 
 var app = builder.Build();
 

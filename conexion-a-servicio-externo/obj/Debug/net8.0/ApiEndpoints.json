@@ -80,13 +80,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "auto",
+        "Type": "BACKEND02.DTOs.AutoUpdateDto",
         "IsRequired": true
       },
       {
-        "Name": "auto",
-        "Type": "BACKEND02.DTOs.AutoUpdateDto",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -119,9 +119,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BACKEND02.Controllers.AutoController",
-    "Method": "GetMarcas",
-    "RelativePath": "api/Auto/brand",
+    "ContainingType": "BACKEND02.Controllers.MarcaController",
+    "Method": "Get",
+    "RelativePath": "api/Marca",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -139,15 +139,15 @@
     ]
   },
   {
-    "ContainingType": "BACKEND02.Controllers.AutoController",
-    "Method": "addMarca",
-    "RelativePath": "api/Auto/brand",
+    "ContainingType": "BACKEND02.Controllers.MarcaController",
+    "Method": "Add",
+    "RelativePath": "api/Marca",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "brand",
+        "Name": "marcaV",
         "Type": "BACKEND02.DTOs.MarcaInsertDto",
         "IsRequired": true
       }

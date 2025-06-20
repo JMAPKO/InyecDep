@@ -1,5 +1,7 @@
-﻿using BACKEND02.DTOs;
+﻿using System.ComponentModel.DataAnnotations;
+using BACKEND02.DTOs;
 using BACKEND02.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -12,9 +14,19 @@ namespace BACKEND02.Controllers
     public class AutoController : ControllerBase
     {
         private StoreContext _context;
-        public AutoController(StoreContext context)
+        private IValidator<AutoInserDto> _AutoInsertValidator;
+        private IValidator<AutoUpdateDto> _AutoUpdateValidator;
+               
+
+        public AutoController(
+            StoreContext context,
+            IValidator<AutoInserDto> AutoInsertValidator,
+            IValidator<AutoUpdateDto> AutoUpdateValidator)
         {
             _context = context;
+            _AutoInsertValidator = AutoInsertValidator;
+            _AutoUpdateValidator = AutoUpdateValidator;
+           
         }
 
         [HttpGet] //Buscar todos los autos
@@ -53,40 +65,21 @@ namespace BACKEND02.Controllers
             return Ok(foundCar);
         }
 
-        [HttpGet("brand")] //traer todas las marcas
-        public async Task<IEnumerable<MarcaDto>> GetMarcas()
-        {
-            var marcas = await _context.Marcas
-                .Select(brand => new MarcaDto
-                {
-                    Id = brand.IdMarca,
-                    Nombre = brand.Nombre
-                }).ToListAsync();
-            return marcas;
-        }
-
-        [HttpPost("brand")]
-        public async Task<ActionResult<MarcaDto>> addMarca(MarcaInsertDto brand)
-        {
-            var marca = new Marca
-            {
-                Nombre = brand.Nombre
-            };
-
-            await _context.Marcas.AddAsync(marca);
-            await _context.SaveChangesAsync();
-
-            return Ok(new MarcaDto
-            {
-                Id = marca.IdMarca,
-                Nombre = marca.Nombre
-            });
-        }
 
 
-        [HttpPost]
+        [HttpPost] //AGREGAR AUTO
         public async Task<ActionResult<AutoDto>> add(AutoInserDto auto)
         {
+            //Agregamos Capa de Validaciones
+            var validationResult = await _AutoInsertValidator.ValidateAsync(auto);
+            if (!validationResult.IsValid)
+            {
+                Console.WriteLine("Error de validacion 'nombre del auto vacio' ");
+                return BadRequest(validationResult.Errors);
+
+            }
+
+
             var nuevoAuto = new Auto
             {
                 NombreAuto = auto.NombreAuto,
@@ -106,12 +99,20 @@ namespace BACKEND02.Controllers
         }
 
 
-        [HttpPut("{id}")]
-        public async Task<ActionResult<AutoDto>> CarUpdate(int id , AutoUpdateDto auto)
+        [HttpPut("{id}")] //EDITAR AUTO
+        public async Task<ActionResult<AutoDto>> CarUpdate( AutoUpdateDto auto, int id) //int id ,
         {
+            var validation = await _AutoUpdateValidator.ValidateAsync(auto);
+            if (!validation.IsValid)
+            {
+                return BadRequest(validation.Errors);
+            }
+
+
             var OldCar = await _context.Autos.FindAsync(id);
             if (OldCar == null)
             {
+                Console.WriteLine("No se encontro el auto");
                 return NotFound();
             }
 
@@ -123,7 +124,7 @@ namespace BACKEND02.Controllers
 
             return Ok(new AutoDto
             {
-                Id = OldCar.IdAuto,
+                Id = id,
                 NombreAuto = OldCar.NombreAuto,
                 Precio = OldCar.Precio,
                 IdMarca = OldCar.IdMarca

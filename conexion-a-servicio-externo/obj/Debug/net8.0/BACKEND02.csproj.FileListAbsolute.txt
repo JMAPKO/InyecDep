@@ -208,3 +208,4 @@ C:\Users\juanc\OneDrive\Escritorio\programacion\C#\proyectos\BACKEND02\conexion-
 C:\Users\juanc\OneDrive\Escritorio\programacion\C#\proyectos\BACKEND02\conexion-a-servicio-externo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\juanc\OneDrive\Escritorio\programacion\C#\proyectos\BACKEND02\conexion-a-servicio-externo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\juanc\OneDrive\Escritorio\programacion\C#\proyectos\BACKEND02\conexion-a-servicio-externo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\juanc\OneDrive\Escritorio\programacion\C#\proyectos\BACKEND02\conexion-a-servicio-externo\bin\Debug\net8.0\FluentValidation.dll
