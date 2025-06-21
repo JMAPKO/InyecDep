@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\refactorizar codigo\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\refactorizar codigo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\refactorizar codigo\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\refactorizar codigo\\services\\icommonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:services\\icommonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 146,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICommonServices.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Services\\ICommonServices.cs",
+              "RelativeDocumentMoniker": "Services\\ICommonServices.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Services\\ICommonServices.cs",
+              "RelativeToolTip": "Services\\ICommonServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:10:26.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoServices.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Services\\AutoServices.cs",
+              "RelativeDocumentMoniker": "Services\\AutoServices.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Services\\AutoServices.cs",
+              "RelativeToolTip": "Services\\AutoServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T15:31:51.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:53:43.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\Refactorizar Codigo\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "Controllers\\AutoController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:48:53.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
