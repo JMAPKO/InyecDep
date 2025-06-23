@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\services\\marcaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:services\\marcaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\validation\\marcaupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:validation\\marcaupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\validation\\autoupdatevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:validation\\autoupdatevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\repository\\autorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:repository\\autorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\services\\icommonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:services\\icommonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|c:\\users\\juanc\\onedrive\\escritorio\\programacion\\c#\\proyectos\\backend02\\8- errores\\validation\\marcainsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3DF65CC-4A54-4754-BF85-065713F1D18A}|BACKEND02.csproj|solutionrelative:validation\\marcainsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 146,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoUpdateValidation.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\AutoUpdateValidation.cs",
+              "RelativeDocumentMoniker": "Validation\\AutoUpdateValidation.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\AutoUpdateValidation.cs",
+              "RelativeToolTip": "Validation\\AutoUpdateValidation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:20:51.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcaUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\MarcaUpdateValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\MarcaUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\MarcaUpdateValidator.cs",
+              "RelativeToolTip": "Validation\\MarcaUpdateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:20:22.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:11:58.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\AutoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AutoRepository.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\AutoRepository.cs",
+              "RelativeToolTip": "Repository\\AutoRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:11:43.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MarcaRepository.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\MarcaRepository.cs",
+              "RelativeToolTip": "Repository\\MarcaRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:11:10.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:11:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICommonServices.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Services\\ICommonServices.cs",
+              "RelativeDocumentMoniker": "Services\\ICommonServices.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Services\\ICommonServices.cs",
+              "RelativeToolTip": "Services\\ICommonServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:10:46.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MarcaServices.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Services\\MarcaServices.cs",
+              "RelativeDocumentMoniker": "Services\\MarcaServices.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Services\\MarcaServices.cs",
+              "RelativeToolTip": "Services\\MarcaServices.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswGoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:08:15.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MarcaInsertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\MarcaInsertValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\MarcaInsertValidator.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Validation\\MarcaInsertValidator.cs",
+              "RelativeToolTip": "Validation\\MarcaInsertValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:05:06.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarcaController.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Controllers\\MarcaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarcaController.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Escritorio\\programacion\\C#\\proyectos\\BACKEND02\\8- Errores\\Controllers\\MarcaController.cs",
+              "RelativeToolTip": "Controllers\\MarcaController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:03:49.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
